@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord</title>
+    <link rel="stylesheet" href="../CSS/dashbord.css">
+    <script src="../JS/dashbord.js"></script>
+</head>
+<body onload="PageOnload()">
+    <section>
+        <div class="Group">
+            <div class="Main_Card">
+                <img src="../MEDIA/header.png" alt="">
+            </div>
+        </div>
+
+        <div class="Group">
+            <a class="btn bord" href="index.html">Revenir à la page d'accueil</a>
+        </div>
+
+        <div class="Group">
+            <h3>Tableau de bord</h3>
+            <p>Cette page regroupe des statistiques moyennes sur l'ensemble des réponses  données</p>
+        </div>
+        <div class="frame">
+            <div class="card">
+                <p id="TotalAnswer"></p>
+                <p>Réponses</p>
+            </div>
+            <div class="card">
+                <p id="Avgdelay"></p>
+                <p>Delai de livraison</p>
+            </div>
+            <div class="card">
+                <p id="AvgCondition"></p>
+                <p>Etat du colis</p>
+            </div>
+            <div class="card">
+                <p id="AvgDeliveryPerson"></p>
+                <p>Comportement du</p>
+                <P>livreur</P>
+            </div>
+        </div>
+    </section>
+    <section id="card_footer">
+        <div class="footer">
+            <p>2024 | Feel Back</p>
+        </div>
+    </section>
+</body>
+
+</html>
